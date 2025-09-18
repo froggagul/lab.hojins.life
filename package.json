@@ -1,0 +1,31 @@
+{
+  "name": "lab.hojins.life",
+  "version": "1.0.0",
+  "description": "Personal research website built with Gatsby and TypeScript",
+  "private": true,
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "gatsby": "^5.15.0",
+    "gatsby-plugin-image": "^3.15.0",
+    "gatsby-plugin-react-helmet": "^6.15.0",
+    "gatsby-plugin-sharp": "^5.15.0",
+    "gatsby-transformer-sharp": "^5.15.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.7",
+    "@types/react-helmet": "^6.1.11",
+    "typescript": "^5.7.2"
+  }
+}
